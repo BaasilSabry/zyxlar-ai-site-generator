@@ -8,58 +8,67 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Zyxlar Brand Colors - Black & White with Red Accents */
-    --background: 0 0% 100%;
-    --foreground: 0 0% 0%;
+    /* Zyxlar Master Colors */
+    --background: 0 0% 4.3%; /* #0B0B0B */
+    --foreground: 0 0% 100%; /* #FFFFFF */
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 0%;
+    --background-light: 0 0% 98%; /* #FAFAFA */
+    --foreground-dark: 0 0% 6.7%; /* #111111 */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 0%;
+    --card: 0 0% 4.3%;
+    --card-foreground: 0 0% 100%;
 
-    --primary: 0 0% 0%;
-    --primary-foreground: 0 0% 100%;
+    --card-light: 0 0% 100%;
+    --card-light-foreground: 0 0% 6.7%;
 
-    --secondary: 0 0% 95%;
-    --secondary-foreground: 0 0% 0%;
+    --popover: 0 0% 4.3%;
+    --popover-foreground: 0 0% 100%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 40%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 6.7%;
 
-    --accent: 0 0% 95%;
-    --accent-foreground: 0 0% 0%;
+    --secondary: 0 0% 6.7%; /* #111 */
+    --secondary-foreground: 0 0% 100%;
 
-    /* Red accent for clothing division */
-    --red-accent: 0 84% 60%;
-    --red-accent-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 93%; /* #EDEDED */
 
-    --destructive: 0 84% 60%;
+    --accent: 0 0% 93%; /* #EDEDED tech accent */
+    --accent-foreground: 0 0% 6.7%;
+
+    /* Red accent for clothing only */
+    --red: 0 82% 59%; /* #FF2D2D */
+    --red-foreground: 0 0% 100%;
+
+    --destructive: 0 82% 59%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 90%;
-    --input: 0 0% 95%;
-    --ring: 0 0% 0%;
+    --border: 0 0% 93%; /* #EDEDED */
+    --input: 0 0% 15%;
+    --ring: 0 0% 93%;
 
     --radius: 0.5rem;
 
-    /* Zyxlar Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 0%) 0%, hsl(0 0% 15%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(0 0% 98%) 100%);
-    --gradient-red: linear-gradient(135deg, hsl(0 84% 60%) 0%, hsl(0 70% 50%) 100%);
+    /* Zyxlar Master Gradients */
+    --gradient-hero: radial-gradient(ellipse at center, hsl(0 0% 6.7%) 0%, hsl(0 0% 4.3%) 70%);
+    --gradient-dark: linear-gradient(135deg, hsl(0 0% 4.3%) 0%, hsl(0 0% 6.7%) 100%);
+    --gradient-light: linear-gradient(180deg, hsl(0 0% 98%) 0%, hsl(0 0% 96%) 100%);
+    --gradient-red: linear-gradient(135deg, hsl(0 82% 59%) 0%, hsl(0 70% 50%) 100%);
     
-    /* Zyxlar Shadows */
-    --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.1);
-    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.08);
-    --shadow-red: 0 10px 30px -10px hsl(0 84% 60% / 0.3);
+    /* Zyxlar Master Shadows */
+    --shadow-glass: 0 8px 32px 0 hsl(0 0% 0% / 0.2);
+    --shadow-card: 0 2px 8px -2px hsl(0 0% 0% / 0.3);
+    --shadow-lift: 0 4px 16px -4px hsl(0 0% 0% / 0.4);
+    --shadow-red: 0 4px 16px -4px hsl(0 82% 59% / 0.3);
     
-    /* Zyxlar Typography */
-    --font-heading: 'Inter', system-ui, sans-serif;
+    /* Zyxlar Master Typography */
+    --font-heading: 'Space Grotesk', system-ui, sans-serif;
     --font-body: 'Inter', system-ui, sans-serif;
     
-    /* Zyxlar Animations */
-    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    /* Zyxlar Master Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-fast: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    --transition-micro: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -137,20 +146,29 @@ All colors MUST be HSL.
     background: var(--gradient-hero);
   }
   
-  .gradient-subtle {
-    background: var(--gradient-subtle);
+  .gradient-dark {
+    background: var(--gradient-dark);
+  }
+  
+  .gradient-light {
+    background: var(--gradient-light);
   }
   
   .gradient-red {
     background: var(--gradient-red);
   }
   
-  .shadow-elegant {
-    box-shadow: var(--shadow-elegant);
+  .shadow-glass {
+    box-shadow: var(--shadow-glass);
+    backdrop-filter: blur(8px);
   }
   
   .shadow-card {
     box-shadow: var(--shadow-card);
+  }
+  
+  .shadow-lift {
+    box-shadow: var(--shadow-lift);
   }
   
   .shadow-red {
@@ -165,12 +183,16 @@ All colors MUST be HSL.
     transition: var(--transition-fast);
   }
   
+  .transition-micro {
+    transition: var(--transition-micro);
+  }
+  
   .hover-lift {
-    @apply transition-smooth hover:-translate-y-2 hover:shadow-elegant;
+    @apply transition-smooth hover:-translate-y-1 hover:shadow-lift;
   }
   
   .hover-scale {
-    @apply transition-fast hover:scale-105;
+    @apply transition-fast hover:scale-[1.02];
   }
   
   .animate-fade-in {
@@ -179,5 +201,19 @@ All colors MUST be HSL.
   
   .animate-slide-up {
     animation: slideUp 0.8s ease-out forwards;
+  }
+  
+  .animate-stagger {
+    animation-delay: calc(var(--stagger, 0) * 60ms);
+  }
+  
+  /* Glass effect for cards */
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-sm border border-accent/30 shadow-glass;
+  }
+  
+  /* Red underline effect for clothing links */
+  .red-underline {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-red after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left;
   }
 }

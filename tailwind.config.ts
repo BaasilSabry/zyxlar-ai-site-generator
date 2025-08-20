@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'heading': ['Space Grotesk', 'system-ui', 'sans-serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -53,8 +57,8 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				red: {
-					DEFAULT: 'hsl(var(--red-accent))',
-					foreground: 'hsl(var(--red-accent-foreground))'
+					DEFAULT: 'hsl(var(--red))',
+					foreground: 'hsl(var(--red-foreground))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
