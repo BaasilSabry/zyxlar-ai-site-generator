@@ -145,11 +145,11 @@ const Clothing = () => {
       </section>
 
       {/* Launch Note */}
-      <section className="py-20 bg-secondary">
+      <section className="py-20 bg-background-light">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="font-heading text-3xl font-bold mb-6 text-secondary-foreground">Our Journey</h2>
-            <p className="text-lg text-secondary-foreground/80 leading-relaxed">
+            <h2 className="font-heading text-3xl font-bold mb-6 text-foreground-dark">Our Journey</h2>
+            <p className="text-lg text-foreground-dark/70 leading-relaxed">
               We started planning in 2023. Launching after final sampling & QA. 
               Join the list for early drops and be part of the ZYXLAR story from day one.
             </p>
