@@ -14,10 +14,11 @@ const OurStory = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-16">
-            <h2 className="font-heading text-4xl md:text-6xl font-bold mb-6 text-secondary-foreground">
+          <div className="text-center mb-20">
+            <h2 className="font-heading text-5xl md:text-7xl font-bold mb-8 text-secondary-foreground bg-gradient-to-r from-secondary-foreground to-secondary-foreground/70 bg-clip-text text-transparent">
               Built by two founders with one vision.
             </h2>
+            <div className="w-24 h-1 bg-primary mx-auto"></div>
           </div>
           
           <div className="grid lg:grid-cols-2 gap-16 items-start">
