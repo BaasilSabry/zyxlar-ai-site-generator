@@ -14,7 +14,7 @@ const WhatWeDo = () => {
         <div className="text-center mb-16">
           <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6">What We Do</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Zyxlar operates across two innovative sectors, each driving excellence in their respective fields.
+            ZYXLAR operates across two innovative sectors, each driving excellence in their respective fields.
           </p>
         </div>
         
@@ -51,7 +51,7 @@ const WhatWeDo = () => {
                 <span className="text-xs bg-red/10 text-red px-2 py-1 rounded-full">NEW</span>
               </CardTitle>
               <CardDescription className="text-base">
-                Zyxlar Clothing — bold minimal streetwear.
+                ZYXLAR Clothing — bold minimal streetwear.
               </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col justify-between flex-1">

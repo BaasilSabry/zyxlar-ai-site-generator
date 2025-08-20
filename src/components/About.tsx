@@ -6,11 +6,11 @@ const About = () => {
     <section className="py-20 bg-secondary/30">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center animate-slide-up">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8">The Story of Zyxlar</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-8">The Story of ZYXLAR</h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed">
-            Zyxlar was founded by <strong>Baasil Sabry</strong> and <strong>Ashan Himantha</strong>, 
+            ZYXLAR was founded by <strong>Baasil Sabry</strong> and <strong>Ashan Himantha</strong>, 
             two friends with a shared vision to build a brand that merges technology, creativity, and lifestyle. 
-            With Zyxlar Web, we create modern websites and digital solutions. Soon, we will launch Zyxlar Clothing, 
+            With ZYXLAR Web, we create modern websites and digital solutions. Soon, we will launch ZYXLAR Clothing, 
             a bold new fashion brand. Our mission is simple: to create, to inspire, and to lead the future with design and innovation.
           </p>
           

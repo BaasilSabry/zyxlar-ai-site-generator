@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="text-6xl md:text-8xl font-bold text-primary-foreground mb-6 tracking-tight">
-            Zyxlar
+            ZYXLAR
           </h1>
           <p className="text-2xl md:text-4xl text-primary-foreground/90 mb-4 font-light">
             From Web to Wear
@@ -26,7 +26,7 @@ const Hero = () => {
               size="lg" 
               className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 transition-smooth shadow-elegant hover-lift"
             >
-              Explore Zyxlar Web
+              Explore ZYXLAR Web
             </Button>
             <Button 
               size="lg" 

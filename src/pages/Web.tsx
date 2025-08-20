@@ -8,6 +8,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { useToast } from "@/hooks/use-toast";
 import { Monitor, Palette, Search, Settings, Shield, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import OurStory from "@/components/OurStory";
 
 const Web = () => {
   const { toast } = useToast();
@@ -247,6 +248,9 @@ const Web = () => {
           </div>
         </div>
       </section>
+
+      {/* Our Story Section */}
+      <OurStory />
 
       {/* Inline Contact */}
       <section id="contact" className="py-20 bg-secondary">

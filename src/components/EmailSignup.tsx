@@ -21,8 +21,8 @@ const EmailSignup = () => {
       setIsLoading(false);
       setIsSubscribed(true);
       toast({
-        title: "Welcome to the Zyxlar family!",
-        description: "You'll be the first to know about Zyxlar Clothing launch.",
+        title: "Welcome to the ZYXLAR family!",
+        description: "You'll be the first to know about ZYXLAR Clothing launch.",
       });
     }, 1000);
   };
@@ -37,7 +37,7 @@ const EmailSignup = () => {
             </div>
             <h2 className="text-3xl font-bold mb-4">You're In!</h2>
             <p className="text-lg text-muted-foreground">
-              Thank you for joining the Zyxlar Clothing waitlist. Get ready for something extraordinary.
+              Thank you for joining the ZYXLAR Clothing waitlist. Get ready for something extraordinary.
             </p>
           </div>
         </div>
@@ -51,10 +51,10 @@ const EmailSignup = () => {
         <div className="max-w-2xl mx-auto text-center animate-slide-up">
           <Mail className="w-12 h-12 mx-auto mb-6 text-primary" />
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Be the first to wear Zyxlar
+            Be the first to wear ZYXLAR
           </h2>
           <p className="text-lg text-muted-foreground mb-8">
-            Join our exclusive waitlist and get early access to Zyxlar Clothing's launch collection.
+            Join our exclusive waitlist and get early access to ZYXLAR Clothing's launch collection.
           </p>
           
           <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">

@@ -25,7 +25,7 @@ const Clothing = () => {
       setIsLoading(false);
       toast({
         title: "You're on the list — we'll be in touch soon.",
-        description: "Welcome to the Zyxlar Clothing family!",
+        description: "Welcome to the ZYXLAR Clothing family!",
       });
       setFormData({ name: "", email: "", instagram: "", consent: false });
     }, 1000);
@@ -34,7 +34,7 @@ const Clothing = () => {
   const mockups = [
     { name: "Essential Hoodie", type: "hoodie" },
     { name: "Logo Tee", type: "tee" },
-    { name: "Zyxlar Cap", type: "cap" },
+    { name: "ZYXLAR Cap", type: "cap" },
     { name: "Minimal Tote", type: "tote" },
     { name: "Track Pants", type: "pants" },
   ];
@@ -46,7 +46,7 @@ const Clothing = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="font-heading text-5xl md:text-7xl font-bold mb-6">
-              Zyxlar Clothing — Coming Soon.
+              ZYXLAR Clothing — Coming Soon.
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
               Minimal, modern, built for everyday.
@@ -65,7 +65,7 @@ const Clothing = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="font-heading text-4xl font-bold mb-6 text-secondary-foreground">
-              Be the first to wear Zyxlar.
+              Be the first to wear ZYXLAR.
             </h2>
             <p className="text-lg text-muted-foreground mb-12">
               Join our exclusive waitlist for early access to our launch collection.
@@ -127,7 +127,7 @@ const Clothing = () => {
                   htmlFor="consent"
                   className="text-sm text-muted-foreground leading-5"
                 >
-                  I agree to receive Zyxlar updates.
+                  I agree to receive ZYXLAR updates.
                 </Label>
               </div>
               

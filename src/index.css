@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Zyxlar Master Colors */
+    /* ZYXLAR Master Colors */
     --background: 0 0% 4.3%; /* #0B0B0B */
     --foreground: 0 0% 100%; /* #FFFFFF */
 
@@ -49,23 +49,23 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
-    /* Zyxlar Master Gradients */
+    /* ZYXLAR Master Gradients */
     --gradient-hero: radial-gradient(ellipse at center, hsl(0 0% 6.7%) 0%, hsl(0 0% 4.3%) 70%);
     --gradient-dark: linear-gradient(135deg, hsl(0 0% 4.3%) 0%, hsl(0 0% 6.7%) 100%);
     --gradient-light: linear-gradient(180deg, hsl(0 0% 98%) 0%, hsl(0 0% 96%) 100%);
     --gradient-red: linear-gradient(135deg, hsl(0 82% 59%) 0%, hsl(0 70% 50%) 100%);
     
-    /* Zyxlar Master Shadows */
+    /* ZYXLAR Master Shadows */
     --shadow-glass: 0 8px 32px 0 hsl(0 0% 0% / 0.2);
     --shadow-card: 0 2px 8px -2px hsl(0 0% 0% / 0.3);
     --shadow-lift: 0 4px 16px -4px hsl(0 0% 0% / 0.4);
     --shadow-red: 0 4px 16px -4px hsl(0 82% 59% / 0.3);
     
-    /* Zyxlar Master Typography */
+    /* ZYXLAR Master Typography */
     --font-heading: 'Space Grotesk', system-ui, sans-serif;
     --font-body: 'Inter', system-ui, sans-serif;
     
-    /* Zyxlar Master Animations */
+    /* ZYXLAR Master Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
     --transition-fast: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
     --transition-micro: all 0.15s cubic-bezier(0.16, 1, 0.3, 1);

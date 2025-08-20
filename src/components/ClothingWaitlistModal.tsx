@@ -39,7 +39,7 @@ const ClothingWaitlistModal = ({ isOpen, onClose }: ClothingWaitlistModalProps) 
       setIsLoading(false);
       toast({
         title: "You're on the list — we'll be in touch soon.",
-        description: "Welcome to the Zyxlar Clothing family!",
+        description: "Welcome to the ZYXLAR Clothing family!",
       });
       
       // Reset form and close modal after 2 seconds
@@ -59,7 +59,7 @@ const ClothingWaitlistModal = ({ isOpen, onClose }: ClothingWaitlistModalProps) 
       <DialogContent className="sm:max-w-md bg-card border-accent/30 shadow-glass">
         <DialogHeader>
           <DialogTitle className="font-heading text-xl">
-            Zyxlar Clothing — Be first to know.
+            ZYXLAR Clothing — Be first to know.
           </DialogTitle>
           <DialogDescription className="text-muted-foreground">
             Join our exclusive waitlist for early access to our launch collection.
@@ -120,7 +120,7 @@ const ClothingWaitlistModal = ({ isOpen, onClose }: ClothingWaitlistModalProps) 
               htmlFor="consent"
               className="text-sm text-muted-foreground leading-5"
             >
-              I agree to receive Zyxlar updates.
+              I agree to receive ZYXLAR updates.
             </Label>
           </div>
           

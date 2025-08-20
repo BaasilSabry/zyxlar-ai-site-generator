@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="md:col-span-2">
             <Link to="/" className="font-heading text-2xl font-bold mb-4 block">
-              Zyxlar
+              ZYXLAR
             </Link>
             <p className="text-primary-foreground/80 mb-6 max-w-md">
               From Vision to Reality. Building the future through design, technology, and innovation.
@@ -52,7 +52,7 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-primary-foreground/80">
-              <p className="text-sm">hello@zyxlar.com</p>
+              <p className="text-sm">hello@ZYXLAR.com</p>
               <p className="text-sm">Ready to build something amazing?</p>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-primary-foreground/60 text-sm">
-            © 2024 Zyxlar. All rights reserved.
+            © 2024 ZYXLAR. All rights reserved.
           </p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <button className="text-sm text-primary-foreground/60 hover:text-primary-foreground transition-micro">

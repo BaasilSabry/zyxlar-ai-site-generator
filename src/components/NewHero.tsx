@@ -19,7 +19,7 @@ const NewHero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <h1 className="font-heading text-6xl md:text-8xl lg:text-9xl font-bold mb-6 tracking-tight">
-            Zyxlar
+            ZYXLAR
           </h1>
           <p className="text-2xl md:text-4xl lg:text-5xl font-light mb-4">
             From Vision to Reality.

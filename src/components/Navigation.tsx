@@ -26,7 +26,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="font-heading font-bold text-xl transition-micro hover:text-accent-foreground">
-            Zyxlar
+            ZYXLAR
           </Link>
 
           {/* Desktop Navigation */}
