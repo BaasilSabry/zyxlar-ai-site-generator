@@ -46,12 +46,7 @@ const OurStory = () => {
                   </div>
                   <h3 className="font-heading text-xl font-semibold mb-2 text-card-foreground">Baasil Sabry</h3>
                   <p className="text-muted-foreground mb-4">Co-Founder</p>
-                  <Button 
-                    variant="outline" 
-                    size="sm" 
-                    className="border-accent/30 hover:bg-accent/5 transition-micro"
-                    onClick={() => window.open('https://lk.linkedin.com/in/baasil-sabry-72a7a92ba', '_blank')}
-                  >
+                  <Button variant="outline" size="sm" className="border-accent/30 hover:bg-accent/5 transition-micro">
                     <Linkedin className="w-4 h-4 mr-2" />
                     Connect on LinkedIn
                   </Button>
@@ -63,12 +58,7 @@ const OurStory = () => {
                   </div>
                   <h3 className="font-heading text-xl font-semibold mb-2 text-card-foreground">Ashan Himantha</h3>
                   <p className="text-muted-foreground mb-4">Co-Founder</p>
-                  <Button 
-                    variant="outline" 
-                    size="sm" 
-                    className="border-accent/30 hover:bg-accent/5 transition-micro"
-                    onClick={() => window.open('https://lk.linkedin.com/in/ashanhimantha', '_blank')}
-                  >
+                  <Button variant="outline" size="sm" className="border-accent/30 hover:bg-accent/5 transition-micro">
                     <Linkedin className="w-4 h-4 mr-2" />
                     Connect on LinkedIn
                   </Button>
