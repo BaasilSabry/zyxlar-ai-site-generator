@@ -144,35 +144,6 @@ const Clothing = () => {
         </div>
       </section>
 
-      {/* Moodboard Preview */}
-      <section className="py-20">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="font-heading text-4xl font-bold mb-6">Preview Collection</h2>
-            <p className="text-lg text-muted-foreground">
-              A glimpse at what's coming — minimal designs, premium quality.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
-            {mockups.map((item, index) => (
-              <div 
-                key={item.name} 
-                className="group cursor-pointer animate-stagger" 
-                style={{ '--stagger': index } as any}
-              >
-                <div className="aspect-square bg-secondary rounded-lg mb-4 hover-lift transition-smooth red-underline">
-                  <div className="w-full h-full flex items-center justify-center text-secondary-foreground/50">
-                    <span className="text-sm font-medium">{item.type.toUpperCase()}</span>
-                  </div>
-                </div>
-                <h3 className="font-heading text-sm font-medium text-center">{item.name}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Launch Note */}
       <section className="py-20 bg-secondary">
         <div className="container mx-auto px-6">
